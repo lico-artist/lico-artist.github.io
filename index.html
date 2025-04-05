@@ -1,73 +1,107 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Once We Were</title>
-
-    <!-- Google AdSense Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5645308883910910"
-        crossorigin="anonymous"></script>
-
-    <style>
-        body {
-            font-family: 'Georgia', serif;
-            background-color: #f9f9f9;
-            color: #333;
-            padding: 40px;
-            max-width: 800px;
-            margin: auto;
-            line-height: 1.6;
-        }
-        h1 {
-            text-align: center;
-            font-size: 2.5em;
-            color: #444;
-        }
-        .poem {
-            white-space: pre-wrap;
-            font-size: 1.2em;
-        }
-        .credit {
-            margin-top: 40px;
-            text-align: right;
-            font-style: italic;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lico's Wolf Journal</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1571797739016-1c87c4e79d12?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+    }
+    header h1 {
+      font-family: 'UnifrakturCook', cursive;
+      font-size: 4em;
+      animation: fadeIn 3s ease-out;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'UnifrakturCook', cursive;
+      color: #f4e04d;
+      font-size: 2.5em;
+    }
+    .fact-box, .myth-box {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .fact-box:hover, .myth-box:hover {
+      transform: scale(1.03);
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Lico's Wolf Journal</h1>
+  </header>
 
-    <h1>Once We Were</h1>
-
-    <div class="poem">
-We laughed in halls where echoes stay,  
-Shared secrets meant to never stray.  
-Your name once lit my phone so bright,  
-Now silence greets me every night.
-
-We built our world on jokes and dreams,  
-On late-night talks and reckless schemes.  
-But time crept in, and hearts grew cold,  
-And stories left unsaid grew old.
-
-You’re not the face I used to know,  
-Your words feel distant, soft, and slow.  
-We pass like shadows, eyes averted—  
-Two souls once close, now disconcerted.
-
-Was it pride, or time, or fate,  
-That turned our bond to empty slate?  
-No fights, no flames, just quiet change,  
-A friendship lost, now out of range.
-
-Still, sometimes when the sky turns grey,  
-I think of you and yesterday.  
-And wonder if you feel it too—  
-That once, a stranger looked like you.
+  <section>
+    <h2>🌌 Mysteries & Myths</h2>
+    <div class="myth-box">
+      <p><strong>🌕 Werewolves:</strong> Legends say some humans become wolves under the full moon. Though just a myth, it reflects humanity’s wild side.</p>
+      <p><strong>🐺 Lone Wolves:</strong> Often misunderstood — sometimes it’s survival, sometimes a test of strength.</p>
+      <p><strong>🔮 Wolves and the Moon:</strong> They don’t howl *at* the moon — they howl to talk!</p>
     </div>
 
-    <div class="credit">
-        — by Lico
+    <h2>🤯 Fun Facts</h2>
+    <div class="fact-box">
+      <ul>
+        <li>Wolves can run up to 60 km/h</li>
+        <li>A wolf’s jaw strength is 1500 PSI</li>
+        <li>They mate for life 💞</li>
+        <li>Pups are born blind and deaf</li>
+        <li>They communicate using body language and scent</li>
+      </ul>
     </div>
 
+    <h2>🦴 Hunting Styles</h2>
+    <div class="fact-box">
+      <p>Wolves are tactical hunters. They use team strategies, flank prey, and always test herds for weak targets before the chase begins.</p>
+    </div>
+
+    <h2>🔍 Truths vs Myths</h2>
+    <div class="myth-box">
+      <ul>
+        <li><strong>Myth:</strong> Wolves are bloodthirsty killers <br> <strong>Truth:</strong> Wolves avoid humans and hunt only when needed.</li>
+        <li><strong>Myth:</strong> Only alphas can mate <br> <strong>Truth:</strong> Alphas usually do, but it’s not a hard rule.</li>
+        <li><strong>Myth:</strong> Wolves howl at the moon <br> <strong>Truth:</strong> They howl to locate the pack or alert danger.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Lico's Wolf Journal | Howls Beyond the Forest 🐺
+  </footer>
 </body>
 </html>
